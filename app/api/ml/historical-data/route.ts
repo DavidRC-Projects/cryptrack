@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server"
 
+export const dynamic = 'force-dynamic'
+
 // In-memory cache for historical data to avoid repeated API calls
 const dataCache = new Map()
 const CACHE_EXPIRY = 5 * 60 * 1000 // 5 minutes in milliseconds

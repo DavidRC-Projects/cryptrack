@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server"
 
+export const dynamic = 'force-dynamic'
+
 // Fetch top cryptocurrencies from CoinGecko API
 export async function GET() {
   try {

@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server"
 
+export const dynamic = 'force-dynamic'
+
 // Fetch detailed data for a specific cryptocurrency
 export async function GET(request: Request, { params }: { params: { id: string } }) {
   try {

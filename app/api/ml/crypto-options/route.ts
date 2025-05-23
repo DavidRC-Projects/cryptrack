@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server"
 
+export const dynamic = 'force-dynamic'
+
 // Top 20 cryptocurrencies by market cap
 const TOP_CRYPTOS = [
   { id: "bitcoin", name: "Bitcoin", symbol: "btc" },

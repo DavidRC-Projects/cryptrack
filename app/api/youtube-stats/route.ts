@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server"
 
+export const dynamic = 'force-dynamic'
+
 export async function GET() {
   try {
     // In a real app, this would fetch data from the YouTube API

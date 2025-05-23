@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server"
 
+export const dynamic = 'force-dynamic'
+
 // Cache for trend data
 let trendDataCache = null
 let cacheTimestamp = null

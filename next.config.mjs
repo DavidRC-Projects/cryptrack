@@ -6,12 +6,9 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  output: 'export',
   images: {
-    unoptimized: true,
-  },
-  basePath: process.env.NODE_ENV === 'production' ? '/crypto-tracker' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/crypto-tracker/' : '',
+    domains: ['assets.coingecko.com'],
+  }
 }
 
 export default nextConfig
